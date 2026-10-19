@@ -1,0 +1,10 @@
+import pytz
+
+TELEGRAM_BOT_TOKEN = "8215985108:AAHzmAzepe9pSp1U-kU8Y-2CPAFQgWehzA".strip()
+FOOTBALL_API_KEY = "f9c3fa644591453b9b7705722c57226e".strip()
+
+TIMEZONE = pytz.timezone("Africa/Lubumbashi")
+
+MIN_OVER_15_RATIO = 0.8
+MIN_PROBABILITY = 78.0
+MAX_MATCHES_PER_DAY = 8
